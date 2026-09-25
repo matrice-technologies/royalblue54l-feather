@@ -1,0 +1,157 @@
+{
+  "runId": "a0d5dd3d-5c8f-489a-a57c-f6ab3ca7c813",
+  "operation": "drill",
+  "mode": "real",
+  "input": {
+    "path": "RoyalBlue54L-Feather.kicad_pcb",
+    "sha256": "7ea0766ba156b926a9c97283d10266e7b4e5bb50088f3287ab821ea7a6f0e85c"
+  },
+  "projectSnapshot": {
+    "files": [
+      {
+        "path": "RoyalBlue54L-Feather.kicad_pcb",
+        "sha256": "7ea0766ba156b926a9c97283d10266e7b4e5bb50088f3287ab821ea7a6f0e85c"
+      },
+      {
+        "path": "RoyalBlue54L-Feather.kicad_pro",
+        "sha256": "b0a10c3b51858f3bba761928225c8aa8d52475a58fc2b92398e676c055400a7a"
+      },
+      {
+        "path": "RoyalBlue54L-Feather.kicad_sch",
+        "sha256": "3636dcd5252ae18b2651dce4480a61765bd37b2e601679c3c1465dc8ca21fad8"
+      },
+      {
+        "path": "fp-lib-table",
+        "sha256": "ddad01999565051d7b415245df914ad3cea1f04dd356aec35996b8f4e1930bad"
+      },
+      {
+        "path": "lib/footprints/LordsBoards-Symbol.pretty/LordsBoardsLogo_Small_Silk.kicad_mod",
+        "sha256": "259ee4f640f18110db5a100bdc7d3e2e0d7109366ceb2ff68365f9808c8bf95b"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather-Connector_FFC-FPC.pretty/CONN-SMD_5P-P0.50_HCTL_HC-FPC-05-09-5RLTAG.kicad_mod",
+        "sha256": "07e6c682f422a5131b4674bc877b7a4ee317085a35211171ad17715852d03fa2"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather-Connector_PinHeader_2.54mm.pretty/PinHeader_1x12_P2.54mm_Vertical.kicad_mod",
+        "sha256": "a44f217243ac20cfb76e411b9ad013718da973af7c030018f27b67372a374813"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather-Connector_PinHeader_2.54mm.pretty/PinHeader_1x12_P2.54mm_Vertical_Mirrored.kicad_mod",
+        "sha256": "cd598f29b3e480c3304bf3e8bfaa0a9c6d763b483cf42a6300416e679b71534a"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather-Connector_PinHeader_2.54mm.pretty/PinHeader_1x16_P2.54mm_Vertical.kicad_mod",
+        "sha256": "a1997d9e200bf80cb57c54aa14e9f740f1770d6acd152059eeef0306787eb953"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather-Connector_USB.pretty/USB_C_Receptacle_HRO_TYPE-C-31-M-12.kicad_mod",
+        "sha256": "9719e21ded87e6bb8e29d6f8c4a3d92a35c029550dbffa7224e6912edcdb95a6"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather-MountingHole.pretty/MountingHole_2.5mm.kicad_mod",
+        "sha256": "76516e201e7a6098e8f2387e7659f3e56d37d759c64c257fd9bc39e2b19040c0"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather-Symbol.pretty/RoyalBlue54L_QRCode.kicad_mod",
+        "sha256": "eb8eccd71a87b089487b331ee159c2584d709a7d3abebed432b2ee884bcf0391"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/BM15x-LGA-45_15.8x10mm.kicad_mod",
+        "sha256": "abc9fc1216bc0e5e5a5f33b5f4bf2ef39db1ad26564181fb6b397ffef58bbdae"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/C_0402_1005Metric.kicad_mod",
+        "sha256": "3cd448bedadfffdf9cde38c4d1dad7d2ff607d1601460c073be676d613ec98d4"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/C_0603_1608Metric.kicad_mod",
+        "sha256": "980593f1a424404d32c738351ba283f47530ac0648670066495a81e8158fdba6"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/Crystal_SMD_2016-4Pin_2.0x1.6mm.kicad_mod",
+        "sha256": "22ef2689f52920094cec8e0cf050643cf2082387096e3e9410ecf8a5c2466f31"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal.kicad_mod",
+        "sha256": "2536d0923fdfb7375c55bbc0dcee7502f85b8a52c7dcc3fad494cb19c67ac44f"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/LED_0603_1608Metric.kicad_mod",
+        "sha256": "e64fe6e08e42e17b5dacb7b37b53c3c4f0488d387b180bf0b662baddf0fb8c34"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/L_0603_1608Metric.kicad_mod",
+        "sha256": "26787e584d13275497855a38d330ea613ce02d319507f34494788fcef1086a6d"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm_ThermalVias.kicad_mod",
+        "sha256": "abbf1a3d639c564fd0b2b90c0dbf17f26f84833c0d3e90801022c248b7aa8afd"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm_ThermalVias.kicad_mod",
+        "sha256": "4e013ddace6be7b7dd76d373b6d75da64c676b40ce47ff840b0f99afaed1b809"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/R_0402_1005Metric.kicad_mod",
+        "sha256": "2b89e7ea47ebf149aa181d8960d6f263ca7f6f3ebcbba65876046ac5880e73ff"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/SOT-553.kicad_mod",
+        "sha256": "a9af5dd5d64ca4f3f46e2b640f0efd1d450986a663078524f7d39f96b0085da0"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/USB_C_Receptacle_HRO_TYPE-C-31-M-12_ChamferedCourtyard.kicad_mod",
+        "sha256": "bb8758247a6dead8ea03a6ae6170c07c79b783ff0625597acf7e10c000600117"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/Winbond_USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm.kicad_mod",
+        "sha256": "706ca4843b1e26909bbf682c29e6e6fd760cc3fa7e2c47bb46637025249c9c7f"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Module.pretty/SparkFun_ThingPlus.kicad_mod",
+        "sha256": "57966f3e52016975e4d870c3d2684a2fce0dd76214784ddcde592f7865c92076"
+      },
+      {
+        "path": "lib/symbols/LordsBoards-Graphic.kicad_sym",
+        "sha256": "b216e6a370f31f8d6e77e1ca39224ca6ed53900de088c2bdc16559727c0f9fee"
+      },
+      {
+        "path": "lib/symbols/RoyalBlue54L-Feather.kicad_sym",
+        "sha256": "568656f253646fdf203af3a10a0aeef754905c1b20369c7662389262069a9e7d"
+      },
+      {
+        "path": "sch/Connectors.kicad_sch",
+        "sha256": "3c511ee2cd6e9a569b8ed7186e043317cbcc84ac94694005d5509919cb6f221e"
+      },
+      {
+        "path": "sch/Debugger.kicad_sch",
+        "sha256": "c35f4640eca71061fb237d91375486b6653e282541ebf2c23b902f9c8030a864"
+      },
+      {
+        "path": "sch/nPM1300.kicad_sch",
+        "sha256": "d47d95827a29fd6a60429ad93f33e2328cb96b35fcc1d9bec5678eee7c354230"
+      },
+      {
+        "path": "sch/nRF54L15.kicad_sch",
+        "sha256": "b72da91f91ec85ec2aae46d507504e251b2f09ef7c1c9c15bfaa423932ed9c20"
+      },
+      {
+        "path": "sym-lib-table",
+        "sha256": "2159a22c9841c8c3932cbf9b479b13359393a1cea4288de9f3a5cf6c27cfc6e8"
+      }
+    ],
+    "sha256": "3ae86459bd0bf32b7487a9fb46dd197a7b6c83bf3e5d9ade83b406a082e243f3"
+  },
+  "provenanceLimitations": "Captures supported KiCad files below the input directory. External libraries, files outside that directory and global KiCad settings are not frozen.",
+  "kicadVersion": "10.0.6",
+  "createdAt": "2026-09-25T20:27:31.261Z",
+  "exitCode": 0,
+  "artifacts": [
+    {
+      "path": ".eloom/runs/a0d5dd3d-5c8f-489a-a57c-f6ab3ca7c813/RoyalBlue54L-Feather.drl",
+      "sha256": "72cf33b9e5628d1b73c5c928a6467c712fca420d85e30eda8273f789796f154e",
+      "bytes": 5185
+    }
+  ]
+}

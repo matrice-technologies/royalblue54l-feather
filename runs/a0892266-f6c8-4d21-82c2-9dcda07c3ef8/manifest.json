@@ -1,0 +1,332 @@
+{
+  "runId": "a0892266-f6c8-4d21-82c2-9dcda07c3ef8",
+  "operation": "gerbers",
+  "mode": "real",
+  "input": {
+    "path": "RoyalBlue54L-Feather.kicad_pcb",
+    "sha256": "7ea0766ba156b926a9c97283d10266e7b4e5bb50088f3287ab821ea7a6f0e85c"
+  },
+  "projectSnapshot": {
+    "files": [
+      {
+        "path": "RoyalBlue54L-Feather.kicad_pcb",
+        "sha256": "7ea0766ba156b926a9c97283d10266e7b4e5bb50088f3287ab821ea7a6f0e85c"
+      },
+      {
+        "path": "RoyalBlue54L-Feather.kicad_pro",
+        "sha256": "b0a10c3b51858f3bba761928225c8aa8d52475a58fc2b92398e676c055400a7a"
+      },
+      {
+        "path": "RoyalBlue54L-Feather.kicad_sch",
+        "sha256": "3636dcd5252ae18b2651dce4480a61765bd37b2e601679c3c1465dc8ca21fad8"
+      },
+      {
+        "path": "fp-lib-table",
+        "sha256": "ddad01999565051d7b415245df914ad3cea1f04dd356aec35996b8f4e1930bad"
+      },
+      {
+        "path": "lib/footprints/LordsBoards-Symbol.pretty/LordsBoardsLogo_Small_Silk.kicad_mod",
+        "sha256": "259ee4f640f18110db5a100bdc7d3e2e0d7109366ceb2ff68365f9808c8bf95b"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather-Connector_FFC-FPC.pretty/CONN-SMD_5P-P0.50_HCTL_HC-FPC-05-09-5RLTAG.kicad_mod",
+        "sha256": "07e6c682f422a5131b4674bc877b7a4ee317085a35211171ad17715852d03fa2"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather-Connector_PinHeader_2.54mm.pretty/PinHeader_1x12_P2.54mm_Vertical.kicad_mod",
+        "sha256": "a44f217243ac20cfb76e411b9ad013718da973af7c030018f27b67372a374813"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather-Connector_PinHeader_2.54mm.pretty/PinHeader_1x12_P2.54mm_Vertical_Mirrored.kicad_mod",
+        "sha256": "cd598f29b3e480c3304bf3e8bfaa0a9c6d763b483cf42a6300416e679b71534a"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather-Connector_PinHeader_2.54mm.pretty/PinHeader_1x16_P2.54mm_Vertical.kicad_mod",
+        "sha256": "a1997d9e200bf80cb57c54aa14e9f740f1770d6acd152059eeef0306787eb953"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather-Connector_USB.pretty/USB_C_Receptacle_HRO_TYPE-C-31-M-12.kicad_mod",
+        "sha256": "9719e21ded87e6bb8e29d6f8c4a3d92a35c029550dbffa7224e6912edcdb95a6"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather-MountingHole.pretty/MountingHole_2.5mm.kicad_mod",
+        "sha256": "76516e201e7a6098e8f2387e7659f3e56d37d759c64c257fd9bc39e2b19040c0"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather-Symbol.pretty/RoyalBlue54L_QRCode.kicad_mod",
+        "sha256": "eb8eccd71a87b089487b331ee159c2584d709a7d3abebed432b2ee884bcf0391"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/BM15x-LGA-45_15.8x10mm.kicad_mod",
+        "sha256": "abc9fc1216bc0e5e5a5f33b5f4bf2ef39db1ad26564181fb6b397ffef58bbdae"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/C_0402_1005Metric.kicad_mod",
+        "sha256": "3cd448bedadfffdf9cde38c4d1dad7d2ff607d1601460c073be676d613ec98d4"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/C_0603_1608Metric.kicad_mod",
+        "sha256": "980593f1a424404d32c738351ba283f47530ac0648670066495a81e8158fdba6"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/Crystal_SMD_2016-4Pin_2.0x1.6mm.kicad_mod",
+        "sha256": "22ef2689f52920094cec8e0cf050643cf2082387096e3e9410ecf8a5c2466f31"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal.kicad_mod",
+        "sha256": "2536d0923fdfb7375c55bbc0dcee7502f85b8a52c7dcc3fad494cb19c67ac44f"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/LED_0603_1608Metric.kicad_mod",
+        "sha256": "e64fe6e08e42e17b5dacb7b37b53c3c4f0488d387b180bf0b662baddf0fb8c34"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/L_0603_1608Metric.kicad_mod",
+        "sha256": "26787e584d13275497855a38d330ea613ce02d319507f34494788fcef1086a6d"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm_ThermalVias.kicad_mod",
+        "sha256": "abbf1a3d639c564fd0b2b90c0dbf17f26f84833c0d3e90801022c248b7aa8afd"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm_ThermalVias.kicad_mod",
+        "sha256": "4e013ddace6be7b7dd76d373b6d75da64c676b40ce47ff840b0f99afaed1b809"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/R_0402_1005Metric.kicad_mod",
+        "sha256": "2b89e7ea47ebf149aa181d8960d6f263ca7f6f3ebcbba65876046ac5880e73ff"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/SOT-553.kicad_mod",
+        "sha256": "a9af5dd5d64ca4f3f46e2b640f0efd1d450986a663078524f7d39f96b0085da0"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/USB_C_Receptacle_HRO_TYPE-C-31-M-12_ChamferedCourtyard.kicad_mod",
+        "sha256": "bb8758247a6dead8ea03a6ae6170c07c79b783ff0625597acf7e10c000600117"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Feather.pretty/Winbond_USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm.kicad_mod",
+        "sha256": "706ca4843b1e26909bbf682c29e6e6fd760cc3fa7e2c47bb46637025249c9c7f"
+      },
+      {
+        "path": "lib/footprints/RoyalBlue54L-Module.pretty/SparkFun_ThingPlus.kicad_mod",
+        "sha256": "57966f3e52016975e4d870c3d2684a2fce0dd76214784ddcde592f7865c92076"
+      },
+      {
+        "path": "lib/symbols/LordsBoards-Graphic.kicad_sym",
+        "sha256": "b216e6a370f31f8d6e77e1ca39224ca6ed53900de088c2bdc16559727c0f9fee"
+      },
+      {
+        "path": "lib/symbols/RoyalBlue54L-Feather.kicad_sym",
+        "sha256": "568656f253646fdf203af3a10a0aeef754905c1b20369c7662389262069a9e7d"
+      },
+      {
+        "path": "sch/Connectors.kicad_sch",
+        "sha256": "3c511ee2cd6e9a569b8ed7186e043317cbcc84ac94694005d5509919cb6f221e"
+      },
+      {
+        "path": "sch/Debugger.kicad_sch",
+        "sha256": "c35f4640eca71061fb237d91375486b6653e282541ebf2c23b902f9c8030a864"
+      },
+      {
+        "path": "sch/nPM1300.kicad_sch",
+        "sha256": "d47d95827a29fd6a60429ad93f33e2328cb96b35fcc1d9bec5678eee7c354230"
+      },
+      {
+        "path": "sch/nRF54L15.kicad_sch",
+        "sha256": "b72da91f91ec85ec2aae46d507504e251b2f09ef7c1c9c15bfaa423932ed9c20"
+      },
+      {
+        "path": "sym-lib-table",
+        "sha256": "2159a22c9841c8c3932cbf9b479b13359393a1cea4288de9f3a5cf6c27cfc6e8"
+      }
+    ],
+    "sha256": "3ae86459bd0bf32b7487a9fb46dd197a7b6c83bf3e5d9ade83b406a082e243f3"
+  },
+  "provenanceLimitations": "Captures supported KiCad files below the input directory. External libraries, files outside that directory and global KiCad settings are not frozen.",
+  "kicadVersion": "10.0.6",
+  "createdAt": "2026-09-25T20:27:30.432Z",
+  "exitCode": 0,
+  "artifacts": [
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-B_Adhesive.gba",
+      "sha256": "4735447b32cb2edf256a76340d0f37b0d961a9c4b29700985027760e08b17808",
+      "bytes": 464
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-B_Courtyard.gbr",
+      "sha256": "69901c3c497ead1576dc3f726ffae426c903f5ebd6776b2a6671ec242cea6d38",
+      "bytes": 3336
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-B_Cu.gbl",
+      "sha256": "fb3ad02a2216dd911e73d8b4e8a04a34a498ff4cc64bd71be0fe26b23ea79027",
+      "bytes": 334001
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-B_Fab.gbr",
+      "sha256": "bb15e70d27529e496e4980146556399b5e3eb36a93e650d41ecbef2c337d265d",
+      "bytes": 91031
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-B_Mask.gbs",
+      "sha256": "a9a28a02b68c4ce6052d09e02cbd7a03e1fb00319be159143341b61614b97bdf",
+      "bytes": 6697
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-B_Paste.gbp",
+      "sha256": "56165e8a23cfc9010d0dbfce87e697ce6c05c577b9187da1126cb674dc91f553",
+      "bytes": 465
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-B_Silkscreen.gbo",
+      "sha256": "a66c9616a4ef8840530c6ec8d0eee36cab2293fa398bcaa89159dafe48f7d501",
+      "bytes": 129336
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-Edge_Cuts.gm1",
+      "sha256": "ce5cdb697d14a375df7f7beb347d0605f619867f82583ed6a8e56ef4efb0d05e",
+      "bytes": 1005
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-F_Adhesive.gta",
+      "sha256": "f831aed8b896969417107993f27ae57d91d5690837acaa6ac697620ff69494be",
+      "bytes": 464
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-F_Courtyard.gbr",
+      "sha256": "de70d9b9854dcf084adb32bcfa9252f378cbe56b3aa64fd04655cf6aceb5d914",
+      "bytes": 12359
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-F_Cu.gtl",
+      "sha256": "f3094e70aa10a3289ddcf0a1010e14b0303e5259c6b74756f1b43ec31957050f",
+      "bytes": 502933
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-F_Fab.gbr",
+      "sha256": "eef2a6cbe972733ad7c3f63b557aba01f0d974a7013ed282da51082cbdeb4de7",
+      "bytes": 243857
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-F_Mask.gts",
+      "sha256": "4f23f6127497bff66e6852b54a733bf936264d6b75164849c4b202ffefab627a",
+      "bytes": 18015
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-F_Paste.gtp",
+      "sha256": "3730513ff758ef87d71ebf42311e2642481f41b8d3be514f121aa72297126188",
+      "bytes": 18957
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-F_Silkscreen.gto",
+      "sha256": "2b4b9f78be35aa24febc0cc139f6ee7dce723a55d17c9898976f59744b667544",
+      "bytes": 243991
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-In1_Cu.g1",
+      "sha256": "f019bf6c44f6373a838d9e9dfb8d0677f6121f5b1a01911afd616a290a0b0f56",
+      "bytes": 207259
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-In2_Cu.g2",
+      "sha256": "aafa4cd0ca1d42a05ce81257647b77d316d63fa860e5cedef61889a938304bca",
+      "bytes": 373191
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-In3_Cu.g3",
+      "sha256": "c0f9d645f8e4734a858d377c3a830cfc110687f77c093d63d5dfe3fb877fb1fe",
+      "bytes": 207259
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-In4_Cu.g4",
+      "sha256": "448c4764fd5ee4e74cae6dcd377c34fbc52e75826333f01ab3dd04ca7d2cb178",
+      "bytes": 362518
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-In5_Cu.g5",
+      "sha256": "76d8e4cfaa5e6bac094f4dc9c5f1f38fe51a91823a289e2c4b619d29b7afffc8",
+      "bytes": 268900
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-In6_Cu.g6",
+      "sha256": "0a925628a5d17510852b853623e6d422cd6a68bf46dde721df6b8127e528749e",
+      "bytes": 207259
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-Margin.gbr",
+      "sha256": "10b05a56a95bfc6e4a08565e7073a11e4a35b1c45d16371f4b738c1c0678b3ab",
+      "bytes": 438
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-User_1.gbr",
+      "sha256": "10b05a56a95bfc6e4a08565e7073a11e4a35b1c45d16371f4b738c1c0678b3ab",
+      "bytes": 438
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-User_2.gbr",
+      "sha256": "10b05a56a95bfc6e4a08565e7073a11e4a35b1c45d16371f4b738c1c0678b3ab",
+      "bytes": 438
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-User_3.gbr",
+      "sha256": "10b05a56a95bfc6e4a08565e7073a11e4a35b1c45d16371f4b738c1c0678b3ab",
+      "bytes": 438
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-User_4.gbr",
+      "sha256": "10b05a56a95bfc6e4a08565e7073a11e4a35b1c45d16371f4b738c1c0678b3ab",
+      "bytes": 438
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-User_5.gbr",
+      "sha256": "10b05a56a95bfc6e4a08565e7073a11e4a35b1c45d16371f4b738c1c0678b3ab",
+      "bytes": 438
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-User_6.gbr",
+      "sha256": "10b05a56a95bfc6e4a08565e7073a11e4a35b1c45d16371f4b738c1c0678b3ab",
+      "bytes": 438
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-User_7.gbr",
+      "sha256": "10b05a56a95bfc6e4a08565e7073a11e4a35b1c45d16371f4b738c1c0678b3ab",
+      "bytes": 438
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-User_8.gbr",
+      "sha256": "10b05a56a95bfc6e4a08565e7073a11e4a35b1c45d16371f4b738c1c0678b3ab",
+      "bytes": 438
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-User_9.gbr",
+      "sha256": "10b05a56a95bfc6e4a08565e7073a11e4a35b1c45d16371f4b738c1c0678b3ab",
+      "bytes": 438
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-User_Comments.gbr",
+      "sha256": "1650b8902c5a1f7c5dd31a474ec63d103b5fbf25180584a2f10da589b4c6cfed",
+      "bytes": 10015
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-User_Drawings.gbr",
+      "sha256": "7d9a9bd1e2a69efc64351b0f7c9e7087b14451756a88624c3ed1eba243529aa9",
+      "bytes": 448
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-User_Eco1.gbr",
+      "sha256": "a594f4d6d85b5e44bc90b4d72e438c5a3395a2bfe4d9748ab0fab0c0972fe769",
+      "bytes": 438
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-User_Eco2.gbr",
+      "sha256": "545003ea9da2f12e8ddaabd20d736a968503ee85dbb8d90d4118b90ece8a053c",
+      "bytes": 438
+    },
+    {
+      "path": ".eloom/runs/a0892266-f6c8-4d21-82c2-9dcda07c3ef8/RoyalBlue54L-Feather-job.gbrjob",
+      "sha256": "855baa0c86935485caa3f3726ced0dd251b2d2d3d384027a05dd6017d5879ad7",
+      "bytes": 7811
+    }
+  ]
+}

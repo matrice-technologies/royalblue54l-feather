@@ -1,5 +1,6 @@
 (fp_lib_table
   (version 7)
+  (lib (name "RoyalBlue54L-Feather")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/RoyalBlue54L-Feather.pretty")(options "")(descr "Footprints archived from the design (embedded copies of 9177387)"))
   (lib (name "RoyalBlue54L-Feather-Connector_PinHeader_2.54mm")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/RoyalBlue54L-Feather-Connector_PinHeader_2.54mm.pretty")(options "")(descr ""))
   (lib (name "RoyalBlue54L-Feather-MountingHole")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/RoyalBlue54L-Feather-MountingHole.pretty")(options "")(descr ""))
   (lib (name "RoyalBlue54L-Feather-Connector_USB")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/RoyalBlue54L-Feather-Connector_USB.pretty")(options "")(descr ""))

@@ -11,7 +11,7 @@
 		(company "Lord's Boards")
 	)
 	(lib_symbols
-		(symbol "Device:C_Small"
+		(symbol "RoyalBlue54L-Feather:C_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1092,7 +1092,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_2_Bridged"
+		(symbol "RoyalBlue54L-Feather:SolderJumper_2_Bridged"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2723,7 +2723,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "nordic-lib-kicad-npm:nPM1300-QEXX"
+		(symbol "RoyalBlue54L-Feather:nPM1300-QEXX"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3629,6 +3629,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VBUS"
 			(power)
 			(pin_numbers
@@ -3976,6 +4077,12 @@
 		(color 0 0 0 0)
 		(uuid "f2588493-6c77-46be-aa04-698aa4aaf1c9")
 	)
+	(junction
+		(at 231.14 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db733d69-7101-4ecd-b7fb-fbaa46b16f76")
+	)
 	(no_connect
 		(at 184.15 86.36)
 		(uuid "0c565ea1-ca24-4fd6-95d2-13b3c9e69c6f")
@@ -4268,13 +4375,23 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 93.98) (xy 228.6 93.98)
+			(xy 234.95 93.98) (xy 231.14 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "70ccde2d-9c17-4b46-9773-6ae5bd34e11b")
+	)
+	(wire
+		(pts
+			(xy 231.14 93.98) (xy 228.6 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece4f9dd-3159-4ad2-adb2-e8434e6e8a9e")
 	)
 	(wire
 		(pts
@@ -4701,7 +4818,7 @@
 		(uuid "f74db474-47d0-4227-90de-7ae68913ab20")
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 194.31 132.08 0)
 		(mirror y)
 		(unit 1)
@@ -4728,7 +4845,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0603_1608Metric"
 			(at 194.31 132.08 0)
 			(effects
 				(font
@@ -4873,7 +4990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:L_0603_1608Metric"
 			(at 203.2 96.52 0)
 			(effects
 				(font
@@ -5188,7 +5305,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 101.6 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5214,7 +5331,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0603_1608Metric"
 			(at 101.6 68.58 0)
 			(effects
 				(font
@@ -5463,7 +5580,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 214.63 96.52 0)
 		(mirror y)
 		(unit 1)
@@ -5490,7 +5607,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0603_1608Metric"
 			(at 214.63 96.52 0)
 			(effects
 				(font
@@ -5692,7 +5809,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 168.91 49.53 0)
 		(mirror y)
 		(unit 1)
@@ -5719,7 +5836,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0603_1608Metric"
 			(at 168.91 49.53 0)
 			(effects
 				(font
@@ -5904,7 +6021,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 179.07 49.53 0)
 		(mirror y)
 		(unit 1)
@@ -5931,7 +6048,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0603_1608Metric"
 			(at 179.07 49.53 0)
 			(effects
 				(font
@@ -6049,7 +6166,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 194.31 69.85 0)
 		(mirror y)
 		(unit 1)
@@ -6076,7 +6193,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0603_1608Metric"
 			(at 194.31 69.85 0)
 			(effects
 				(font
@@ -6128,7 +6245,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 158.75 49.53 0)
 		(mirror y)
 		(unit 1)
@@ -6155,7 +6272,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0603_1608Metric"
 			(at 158.75 49.53 0)
 			(effects
 				(font
@@ -6339,7 +6456,7 @@
 		)
 	)
 	(symbol
-		(lib_id "nordic-lib-kicad-npm:nPM1300-QEXX")
+		(lib_id "RoyalBlue54L-Feather:nPM1300-QEXX")
 		(at 148.59 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6366,7 +6483,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm_ThermalVias"
+		(property "Footprint" "RoyalBlue54L-Feather:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm_ThermalVias"
 			(at 148.59 45.72 0)
 			(effects
 				(font
@@ -6511,7 +6628,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 140.97 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6537,7 +6654,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0402_1005Metric"
 			(at 140.97 49.53 0)
 			(effects
 				(font
@@ -6655,7 +6772,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(lib_id "RoyalBlue54L-Feather:SolderJumper_2_Bridged")
 		(at 224.79 93.98 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -6751,7 +6868,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:R_0402_1005Metric"
 			(at 100.33 124.46 0)
 			(effects
 				(font
@@ -6998,6 +7115,71 @@
 			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/79d06a01-15ae-4276-9cac-debde3b18a91"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 231.14 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d490f9f-a6ef-4340-953d-57887ddccccf")
+		(property "Reference" "#FLG03"
+			(at 231.14 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 231.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 231.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0c478bc-eaff-4053-8d21-bb863015a89b")
+		)
+		(instances
+			(project "RoyalBlue54L-Feather"
+				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/79d06a01-15ae-4276-9cac-debde3b18a91"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)

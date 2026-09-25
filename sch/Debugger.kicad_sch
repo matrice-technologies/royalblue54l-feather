@@ -311,7 +311,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
+		(symbol "RoyalBlue54L-Feather:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1008,7 +1008,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Small"
+		(symbol "RoyalBlue54L-Feather:C_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3829,7 +3829,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "hlord2000-Device:Crystal_GND24_Small_EZRoute"
+		(symbol "RoyalBlue54L-Feather:Crystal_GND24_Small_EZRoute"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -4038,7 +4038,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "nordic-lib-kicad-nrf52:nRF52833-QDXX"
+		(symbol "RoyalBlue54L-Feather:nRF52833-QDXX"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4950,6 +4950,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VBUS"
 			(power)
 			(pin_numbers
@@ -5280,7 +5381,7 @@
 		(uuid "5483d51c-2f9e-479a-93e0-677ee59b95cb")
 	)
 	(junction
-		(at 95.201 41.91)
+		(at 95.25 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61768edc-80d9-45d6-bb24-89bfd100acc9")
@@ -5368,6 +5469,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efaf1c7c-6aea-4987-a215-015a030c8c16")
+	)
+	(junction
+		(at 106.68 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc02620e-a0ca-4fe3-af95-0045fe4d434f")
+	)
+	(junction
+		(at 203.2 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed904e1e-9f9f-4aee-901e-afdd9cb01616")
 	)
 	(no_connect
 		(at 187.96 35.56)
@@ -5559,13 +5672,23 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 24.13) (xy 208.28 24.13)
+			(xy 198.12 24.13) (xy 203.2 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0e28eb49-e035-471d-b597-f5d18b059c4d")
+	)
+	(wire
+		(pts
+			(xy 203.2 24.13) (xy 208.28 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c320f00-9b76-41a9-aa1e-bfafd49cce54")
 	)
 	(wire
 		(pts
@@ -5579,7 +5702,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.201 46.99) (xy 95.201 41.91)
+			(xy 95.25 46.99) (xy 95.25 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5589,7 +5712,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.201 41.91) (xy 101.6 41.91)
+			(xy 95.25 41.91) (xy 101.6 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5829,13 +5952,23 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 24.13) (xy 95.25 24.13)
+			(xy 121.92 24.13) (xy 106.68 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "58000f6d-1160-4195-b30d-d28dcf27bd00")
+	)
+	(wire
+		(pts
+			(xy 106.68 24.13) (xy 95.25 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3867b5c1-4d89-47b1-a4b2-4d49587eaf6f")
 	)
 	(wire
 		(pts
@@ -5859,7 +5992,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 41.91) (xy 95.201 41.91)
+			(xy 90.17 41.91) (xy 95.25 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6807,7 +6940,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 88.9 99.06 0)
 		(mirror y)
 		(unit 1)
@@ -6835,7 +6968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0402_1005Metric"
 			(at 88.9 99.06 0)
 			(effects
 				(font
@@ -7077,7 +7210,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 238.76 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7104,7 +7237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0402_1005Metric"
 			(at 238.76 63.5 0)
 			(effects
 				(font
@@ -7219,7 +7352,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 208.28 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7246,7 +7379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0402_1005Metric"
 			(at 208.28 26.67 0)
 			(effects
 				(font
@@ -7393,7 +7526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 219.71 110.49 0)
 			(effects
 				(font
@@ -7462,7 +7595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 95.25 31.75 0)
 			(effects
 				(font
@@ -7569,7 +7702,7 @@
 		)
 	)
 	(symbol
-		(lib_id "nordic-lib-kicad-nrf52:nRF52833-QDXX")
+		(lib_id "RoyalBlue54L-Feather:nRF52833-QDXX")
 		(at 185.42 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7596,7 +7729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm_ThermalVias"
+		(property "Footprint" "RoyalBlue54L-Feather:QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm_ThermalVias"
 			(at 190.5 58.42 0)
 			(effects
 				(font
@@ -7794,7 +7927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 90.17 24.13 0)
 			(effects
 				(font
@@ -7927,7 +8060,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:R_0402_1005Metric"
 			(at 127 115.57 0)
 			(effects
 				(font
@@ -7980,7 +8113,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 95.201 46.99 0)
+		(at 95.25 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7989,7 +8122,7 @@
 		(fields_autoplaced yes)
 		(uuid "7932e4c8-8ad6-408a-8f82-b046d0617ff8")
 		(property "Reference" "TP7"
-			(at 97.741 42.4179 0)
+			(at 97.79 42.4179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7999,7 +8132,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 97.741 44.9579 0)
+			(at 97.79 44.9579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8008,8 +8141,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 100.281 46.99 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 100.33 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8018,7 +8151,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.281 46.99 0)
+			(at 100.33 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8027,7 +8160,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 95.201 46.99 0)
+			(at 95.25 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8048,7 +8181,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 135.89 66.04 90)
 		(mirror x)
 		(unit 1)
@@ -8075,7 +8208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0402_1005Metric"
 			(at 135.89 66.04 0)
 			(effects
 				(font
@@ -8306,7 +8439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 205.74 113.03 0)
 			(effects
 				(font
@@ -8346,7 +8479,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 198.12 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8372,7 +8505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0402_1005Metric"
 			(at 198.12 26.67 0)
 			(effects
 				(font
@@ -8453,7 +8586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 90.17 34.29 0)
 			(effects
 				(font
@@ -8560,7 +8693,7 @@
 		)
 	)
 	(symbol
-		(lib_id "hlord2000-Device:Crystal_GND24_Small_EZRoute")
+		(lib_id "RoyalBlue54L-Feather:Crystal_GND24_Small_EZRoute")
 		(at 144.78 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8587,7 +8720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+		(property "Footprint" "RoyalBlue54L-Feather:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 			(at 144.78 63.5 0)
 			(effects
 				(font
@@ -8645,7 +8778,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 231.14 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8672,7 +8805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0402_1005Metric"
 			(at 231.14 26.67 0)
 			(effects
 				(font
@@ -8750,7 +8883,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
+		(property "Footprint" "RoyalBlue54L-Feather:SOT-553"
 			(at 129.54 46.99 0)
 			(effects
 				(font
@@ -8811,7 +8944,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 175.26 26.67 0)
 		(mirror y)
 		(unit 1)
@@ -8838,7 +8971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0402_1005Metric"
 			(at 175.26 26.67 0)
 			(effects
 				(font
@@ -8890,7 +9023,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(lib_id "RoyalBlue54L-Feather:USB_C_Receptacle_USB2.0_16P")
 		(at 74.93 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8915,7 +9048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-various:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "RoyalBlue54L-Feather:USB_C_Receptacle_HRO_TYPE-C-31-M-12_ChamferedCourtyard"
 			(at 78.74 39.37 0)
 			(effects
 				(font
@@ -9041,7 +9174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 207.01 115.57 0)
 			(effects
 				(font
@@ -9309,7 +9442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 208.28 118.11 0)
 			(effects
 				(font
@@ -9481,7 +9614,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 135.89 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9507,7 +9640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0402_1005Metric"
 			(at 135.89 60.96 0)
 			(effects
 				(font
@@ -9625,7 +9758,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 210.82 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9651,7 +9784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0402_1005Metric"
 			(at 210.82 76.2 0)
 			(effects
 				(font
@@ -9703,7 +9836,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 220.98 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9729,7 +9862,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0402_1005Metric"
 			(at 220.98 73.66 0)
 			(effects
 				(font
@@ -9781,7 +9914,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 228.6 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9808,7 +9941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0402_1005Metric"
 			(at 228.6 66.04 0)
 			(effects
 				(font
@@ -10057,7 +10190,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 101.6 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10084,7 +10217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0402_1005Metric"
 			(at 101.6 99.06 0)
 			(effects
 				(font
@@ -10202,7 +10335,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 219.71 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10229,7 +10362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0402_1005Metric"
 			(at 219.71 26.67 0)
 			(effects
 				(font
@@ -10308,7 +10441,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:R_0402_1005Metric"
 			(at 138.43 120.65 0)
 			(effects
 				(font
@@ -10354,6 +10487,136 @@
 			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 106.68 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52564893-469d-4c26-9857-f9933bcefb33")
+		(property "Reference" "#FLG01"
+			(at 106.68 22.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 106.68 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 106.68 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "483014bb-77a0-41da-8d2e-67b02012d622")
+		)
+		(instances
+			(project "RoyalBlue54L-Feather"
+				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 203.2 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "708970a7-80d5-4ddf-822a-8c03ea917a72")
+		(property "Reference" "#FLG02"
+			(at 203.2 22.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 203.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 203.2 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a72f2b86-9faf-4e86-b4e1-be20244edf7b")
+		)
+		(instances
+			(project "RoyalBlue54L-Feather"
+				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)

@@ -487,7 +487,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Small"
+		(symbol "RoyalBlue54L-Feather:C_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -776,7 +776,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Small"
+		(symbol "RoyalBlue54L-Feather:LED_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3063,7 +3063,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "nordic-lib-kicad-nrf54-modules:BM15x"
+		(symbol "RoyalBlue54L-Feather:BM15x"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5979,7 +5979,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
+		(lib_id "RoyalBlue54L-Feather:LED_Small")
 		(at 93.98 115.57 270)
 		(mirror x)
 		(unit 1)
@@ -6007,7 +6007,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:LED_0603_1608Metric"
 			(at 93.98 115.57 90)
 			(effects
 				(font
@@ -6095,7 +6095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:Winbond_USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm"
+		(property "Footprint" "RoyalBlue54L-Feather:Winbond_USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm"
 			(at 63.5 105.41 0)
 			(effects
 				(font
@@ -6195,7 +6195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:R_0402_1005Metric"
 			(at 179.07 62.23 0)
 			(effects
 				(font
@@ -6391,7 +6391,7 @@
 		)
 	)
 	(symbol
-		(lib_id "nordic-lib-kicad-nrf54-modules:BM15x")
+		(lib_id "RoyalBlue54L-Feather:BM15x")
 		(at 137.16 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6418,7 +6418,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nordic-lib-kicad-nrf54-modules:BM15x-LGA-45_15.8x10mm"
+		(property "Footprint" "RoyalBlue54L-Feather:BM15x-LGA-45_15.8x10mm"
 			(at 137.16 90.17 0)
 			(effects
 				(font
@@ -6780,7 +6780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:R_0402_1005Metric"
 			(at 181.61 62.23 0)
 			(effects
 				(font
@@ -7030,7 +7030,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 83.82 67.31 0)
 		(mirror y)
 		(unit 1)
@@ -7057,7 +7057,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0402_1005Metric"
 			(at 83.82 67.31 0)
 			(effects
 				(font
@@ -7525,7 +7525,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 132.08 45.72 0)
 		(mirror y)
 		(unit 1)
@@ -7552,7 +7552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0402_1005Metric"
 			(at 132.08 45.72 0)
 			(effects
 				(font
@@ -7736,7 +7736,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 57.15 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7762,7 +7762,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0402_1005Metric"
 			(at 57.15 82.55 0)
 			(effects
 				(font
@@ -8187,7 +8187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:R_0402_1005Metric"
 			(at 93.98 120.65 0)
 			(effects
 				(font
@@ -8239,7 +8239,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RoyalBlue54L-Feather:C_Small")
 		(at 96.52 64.77 0)
 		(mirror y)
 		(unit 1)
@@ -8266,7 +8266,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RoyalBlue54L-Feather:C_0402_1005Metric"
 			(at 96.52 64.77 0)
 			(effects
 				(font

@@ -1,0 +1,60 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-25T22:27:10",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "Conflict problem between pins",
+            "key": "pin_to_pin"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/ba76ff89-c129-45ae-a3c9-97538370856c",
+            "violations": []
+        },
+        {
+            "path": "/Debugger/",
+            "uuid_path": "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb",
+            "violations": []
+        },
+        {
+            "path": "/nPM1300/",
+            "uuid_path": "/ba76ff89-c129-45ae-a3c9-97538370856c/79d06a01-15ae-4276-9cac-debde3b18a91",
+            "violations": []
+        },
+        {
+            "path": "/nRF54L15/",
+            "uuid_path": "/ba76ff89-c129-45ae-a3c9-97538370856c/b280f472-530c-47a8-bd61-35bd1befbf04",
+            "violations": []
+        },
+        {
+            "path": "/Connectors/",
+            "uuid_path": "/ba76ff89-c129-45ae-a3c9-97538370856c/0a43c989-a862-4ff1-8fb5-5f7c93f777a1",
+            "violations": []
+        }
+    ],
+    "source": "RoyalBlue54L-Feather.kicad_sch"
+}
